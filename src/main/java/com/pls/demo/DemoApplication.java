@@ -8,7 +8,8 @@ public class DemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
-		System.out.println("I am messing around with git now omg :D");
+		Animal dog = new Animal(8, "Peter");
+		dog.makeNoise("wuff wuff");
 	}
 
 }
