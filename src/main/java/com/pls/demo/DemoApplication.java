@@ -10,6 +10,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		Animal dog = new Animal(8, "Peter");
 		dog.makeNoise("wuff wuff");
+		//I renamed the branch but it didn't work really well
 	}
 
 }
